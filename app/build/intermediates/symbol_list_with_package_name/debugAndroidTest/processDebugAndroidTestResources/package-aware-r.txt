@@ -1,0 +1,3 @@
+com.alcineo.bonappetit.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

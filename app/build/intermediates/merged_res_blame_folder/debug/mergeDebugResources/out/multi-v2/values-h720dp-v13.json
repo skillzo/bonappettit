@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.alcineo.bonappetit.app-mergeDebugResources-57:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/edubanc/.gradle/caches/8.11.1/transforms/f3beaee197d2a56e74377b69cee980e1/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

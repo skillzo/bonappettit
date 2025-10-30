@@ -1,0 +1,759 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:2:1-16:12
+MERGED from [SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/b5dfbdc9da6bd7bf9b333246e9e75260/transformed/jetified-SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease/AndroidManifest.xml:2:1-7:12
+MERGED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:18:1-31:12
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/77efcf484d8bcf155d7b2faa5164d86d/transformed/databinding-adapters-8.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f17f9518104db0d231796eae50babe95/transformed/databinding-runtime-8.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/cd657eb79b87337b754259b1787c68e9/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/f9defd04a7827bdb81bb5d1b06bc0d75/transformed/navigation-common-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/854b5e02105498ad33db9f62d03d0bdd/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/1f58d497c2cc00358e9ec34c81f5a728/transformed/navigation-ui-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/a447919ab1ba51b3b82f660fe0abaa55/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/5b98cca11e0569480c80f9a5bd7cfd68/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/984c9aeef6eb46e6a7171e6f087ebf2e/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4ba6406f1855a14b60318e8874d00a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/de71891417aefca93030eef69c4e8470/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3beaee197d2a56e74377b69cee980e1/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/eee1000b8d307bcde1ab123c88217e9a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0a8d54a757656c555dc0e88704fa0daf/transformed/fragment-1.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/564020c7a6506add6d05ef96e4284d13/transformed/jetified-fragment-ktx-1.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f2a3886969dceb1235d7909da44f36f4/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/c55058508f17b4d11b5bade2f4843b2b/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ca84acc1838d51735545257b73fd19fe/transformed/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c9003221624e5ce4188d9dd0fdee86d8/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f081fd13db996c554f8a68a153ad4048/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/70a1777196b9245834b385367815c14c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2374acf38bea3fc0f6c132d4ca6ecbac/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0817c4077736c7fa5032af11a933750d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f52bbfe2fdb56a89adaa6c4b27ad401b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4806489ab32275ab246002b1ca7faf57/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/82539e69d47c9e0ad41a80490538fc85/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/91ba2cc31ea27bdc8d5acc9821e0fd8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5c80bd45fc42ee6138dbee86bf0daf3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/52a1822329b04a297f0934cd62d0fa86/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2a736ff4eb7d35e8102a3c86ec43f2ac/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/adff25077cab85c4d3b32bcc4d8f1079/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/63c47d5584c8cf344e5f6df0ea8c80ec/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ae712272a056431f569bbd532a7d930a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e7981babfc37dd432d9a65a02b686ba1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/042832de6e20ba2af83b434e7fea5565/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0793f582c109636ae9bbb881ca322d5e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1c115f21c93d8c3528c0b6714b417e2c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/52c056e7e1772a2c1cce706698f44893/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3791b7ef98cb7bcbdf1a7537bc469ca/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ea8268d20eea9e1a22af1f608c49882f/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/64a70c925b925eaf426758a26be0e427/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/9195e6e458cd9fdf7f7b30a8b4b50762/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/07f34fce5c592bd995c9cac5a0d17715/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/8cdec1ee4992322098d677479cabac1e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4ef000e886e41ac8b9359d3b522acfca/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ed238e4402ab7f8a729fbd186ca97b89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/eab60a3a271aef0145b2e03b95d0fb58/transformed/jetified-lifecycle-service-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4cab3c69282e403a9a7d7f3f2ecccd2e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c01487c6054030cd6757d7fc67a0950d/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.test.services:storage:1.4.2] /Users/edubanc/.gradle/caches/8.11.1/transforms/188471ed8d5db9fbd3cba9c10982e086/transformed/jetified-storage-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:monitor:1.6.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/7739ce32d99176fc41d661e5e0bd2915/transformed/monitor-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test:annotation:1.0.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/5be11a6e89d8b08354c1bd05251ca24f/transformed/jetified-annotation-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5e8a26837986d77bf9d0d576c5d4539/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/36062f0af270a21b0644d8b9fe40050d/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/1d44cb87e7a95aa55347dd3cadda4b92/transformed/sqlite-2.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4d8f74b84504759250e78047aa26142f/transformed/jetified-viewbinding-8.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/6dcd743fdb2ec349683618d159a49050/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f189e2e900d269342787f457182e7b43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/b42060cf93f74f0edb624c11875a036b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/54e455880c24e18cc7e16115fdeef347/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d8d923737efe193bcf2a8ead20e0254b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/a7ef5715a620b940c7c6d2a23033ca07/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/80b93c9c93047a8a37a6c031a4a88aee/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/398ea3120db57d102a138785b17025fb/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/aab75167c1f0266f89f0c322635c4b21/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+	package
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:10:5-34:19
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:10:5-34:19
+MERGED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:13:5-14:19
+MERGED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:13:5-14:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/984c9aeef6eb46e6a7171e6f087ebf2e/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/984c9aeef6eb46e6a7171e6f087ebf2e/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4ba6406f1855a14b60318e8874d00a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4ba6406f1855a14b60318e8874d00a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/aab75167c1f0266f89f0c322635c4b21/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/aab75167c1f0266f89f0c322635c4b21/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:12:9-36
+	android:theme
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:17:9-40
+	tools:replace
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:18:9-44
+	android:usesCleartextTraffic
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:11:9-46
+activity#com.alcineo.bonappetit.ui.MainActivity
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:23:9-32:20
+	android:screenOrientation
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:26:13-49
+	android:exported
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:24:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+MERGED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/b5dfbdc9da6bd7bf9b333246e9e75260/transformed/jetified-SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease/AndroidManifest.xml:5:5-44
+MERGED from [SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/b5dfbdc9da6bd7bf9b333246e9e75260/transformed/jetified-SDK-7.4.6-PaymentSecurityPinUnprotectedDeveloppmentRelease/AndroidManifest.xml:5:5-44
+MERGED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:22:5-44
+MERGED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/77efcf484d8bcf155d7b2faa5164d86d/transformed/databinding-adapters-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/77efcf484d8bcf155d7b2faa5164d86d/transformed/databinding-adapters-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f17f9518104db0d231796eae50babe95/transformed/databinding-runtime-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f17f9518104db0d231796eae50babe95/transformed/databinding-runtime-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/cd657eb79b87337b754259b1787c68e9/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/cd657eb79b87337b754259b1787c68e9/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/f9defd04a7827bdb81bb5d1b06bc0d75/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/f9defd04a7827bdb81bb5d1b06bc0d75/transformed/navigation-common-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/854b5e02105498ad33db9f62d03d0bdd/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/854b5e02105498ad33db9f62d03d0bdd/transformed/navigation-runtime-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/1f58d497c2cc00358e9ec34c81f5a728/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/1f58d497c2cc00358e9ec34c81f5a728/transformed/navigation-ui-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/a447919ab1ba51b3b82f660fe0abaa55/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.9] /Users/edubanc/.gradle/caches/8.11.1/transforms/a447919ab1ba51b3b82f660fe0abaa55/transformed/navigation-fragment-2.8.9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/5b98cca11e0569480c80f9a5bd7cfd68/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/5b98cca11e0569480c80f9a5bd7cfd68/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/984c9aeef6eb46e6a7171e6f087ebf2e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/984c9aeef6eb46e6a7171e6f087ebf2e/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4ba6406f1855a14b60318e8874d00a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4ba6406f1855a14b60318e8874d00a/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/de71891417aefca93030eef69c4e8470/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/de71891417aefca93030eef69c4e8470/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3beaee197d2a56e74377b69cee980e1/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3beaee197d2a56e74377b69cee980e1/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/eee1000b8d307bcde1ab123c88217e9a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/eee1000b8d307bcde1ab123c88217e9a/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0a8d54a757656c555dc0e88704fa0daf/transformed/fragment-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0a8d54a757656c555dc0e88704fa0daf/transformed/fragment-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/564020c7a6506add6d05ef96e4284d13/transformed/jetified-fragment-ktx-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/564020c7a6506add6d05ef96e4284d13/transformed/jetified-fragment-ktx-1.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:20:5-22:54
+MERGED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:20:5-22:54
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f2a3886969dceb1235d7909da44f36f4/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/f2a3886969dceb1235d7909da44f36f4/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/c55058508f17b4d11b5bade2f4843b2b/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/c55058508f17b4d11b5bade2f4843b2b/transformed/jetified-activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ca84acc1838d51735545257b73fd19fe/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ca84acc1838d51735545257b73fd19fe/transformed/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c9003221624e5ce4188d9dd0fdee86d8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c9003221624e5ce4188d9dd0fdee86d8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f081fd13db996c554f8a68a153ad4048/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f081fd13db996c554f8a68a153ad4048/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/70a1777196b9245834b385367815c14c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/70a1777196b9245834b385367815c14c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2374acf38bea3fc0f6c132d4ca6ecbac/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2374acf38bea3fc0f6c132d4ca6ecbac/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0817c4077736c7fa5032af11a933750d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0817c4077736c7fa5032af11a933750d/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f52bbfe2fdb56a89adaa6c4b27ad401b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f52bbfe2fdb56a89adaa6c4b27ad401b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4806489ab32275ab246002b1ca7faf57/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4806489ab32275ab246002b1ca7faf57/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/82539e69d47c9e0ad41a80490538fc85/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/82539e69d47c9e0ad41a80490538fc85/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/91ba2cc31ea27bdc8d5acc9821e0fd8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/91ba2cc31ea27bdc8d5acc9821e0fd8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5c80bd45fc42ee6138dbee86bf0daf3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5c80bd45fc42ee6138dbee86bf0daf3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/52a1822329b04a297f0934cd62d0fa86/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/52a1822329b04a297f0934cd62d0fa86/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2a736ff4eb7d35e8102a3c86ec43f2ac/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/2a736ff4eb7d35e8102a3c86ec43f2ac/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/adff25077cab85c4d3b32bcc4d8f1079/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/adff25077cab85c4d3b32bcc4d8f1079/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/63c47d5584c8cf344e5f6df0ea8c80ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/63c47d5584c8cf344e5f6df0ea8c80ec/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ae712272a056431f569bbd532a7d930a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ae712272a056431f569bbd532a7d930a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e7981babfc37dd432d9a65a02b686ba1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/e7981babfc37dd432d9a65a02b686ba1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/042832de6e20ba2af83b434e7fea5565/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/042832de6e20ba2af83b434e7fea5565/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0793f582c109636ae9bbb881ca322d5e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/0793f582c109636ae9bbb881ca322d5e/transformed/jetified-core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1c115f21c93d8c3528c0b6714b417e2c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1c115f21c93d8c3528c0b6714b417e2c/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/52c056e7e1772a2c1cce706698f44893/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/52c056e7e1772a2c1cce706698f44893/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3791b7ef98cb7bcbdf1a7537bc469ca/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/f3791b7ef98cb7bcbdf1a7537bc469ca/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ea8268d20eea9e1a22af1f608c49882f/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ea8268d20eea9e1a22af1f608c49882f/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/64a70c925b925eaf426758a26be0e427/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/64a70c925b925eaf426758a26be0e427/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/9195e6e458cd9fdf7f7b30a8b4b50762/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/9195e6e458cd9fdf7f7b30a8b4b50762/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/07f34fce5c592bd995c9cac5a0d17715/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/07f34fce5c592bd995c9cac5a0d17715/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/8cdec1ee4992322098d677479cabac1e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/8cdec1ee4992322098d677479cabac1e/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4ef000e886e41ac8b9359d3b522acfca/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4ef000e886e41ac8b9359d3b522acfca/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ed238e4402ab7f8a729fbd186ca97b89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/ed238e4402ab7f8a729fbd186ca97b89/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/eab60a3a271aef0145b2e03b95d0fb58/transformed/jetified-lifecycle-service-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/eab60a3a271aef0145b2e03b95d0fb58/transformed/jetified-lifecycle-service-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4cab3c69282e403a9a7d7f3f2ecccd2e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/4cab3c69282e403a9a7d7f3f2ecccd2e/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c01487c6054030cd6757d7fc67a0950d/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/c01487c6054030cd6757d7fc67a0950d/transformed/jetified-room-ktx-2.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.test.services:storage:1.4.2] /Users/edubanc/.gradle/caches/8.11.1/transforms/188471ed8d5db9fbd3cba9c10982e086/transformed/jetified-storage-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.services:storage:1.4.2] /Users/edubanc/.gradle/caches/8.11.1/transforms/188471ed8d5db9fbd3cba9c10982e086/transformed/jetified-storage-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.6.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/7739ce32d99176fc41d661e5e0bd2915/transformed/monitor-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.6.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/7739ce32d99176fc41d661e5e0bd2915/transformed/monitor-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:annotation:1.0.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/5be11a6e89d8b08354c1bd05251ca24f/transformed/jetified-annotation-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:annotation:1.0.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/5be11a6e89d8b08354c1bd05251ca24f/transformed/jetified-annotation-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5e8a26837986d77bf9d0d576c5d4539/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/e5e8a26837986d77bf9d0d576c5d4539/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/36062f0af270a21b0644d8b9fe40050d/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/36062f0af270a21b0644d8b9fe40050d/transformed/sqlite-framework-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/1d44cb87e7a95aa55347dd3cadda4b92/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/1d44cb87e7a95aa55347dd3cadda4b92/transformed/sqlite-2.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4d8f74b84504759250e78047aa26142f/transformed/jetified-viewbinding-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/4d8f74b84504759250e78047aa26142f/transformed/jetified-viewbinding-8.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/6dcd743fdb2ec349683618d159a49050/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/6dcd743fdb2ec349683618d159a49050/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f189e2e900d269342787f457182e7b43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/f189e2e900d269342787f457182e7b43/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/b42060cf93f74f0edb624c11875a036b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/b42060cf93f74f0edb624c11875a036b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/54e455880c24e18cc7e16115fdeef347/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/54e455880c24e18cc7e16115fdeef347/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d8d923737efe193bcf2a8ead20e0254b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d8d923737efe193bcf2a8ead20e0254b/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/a7ef5715a620b940c7c6d2a23033ca07/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/a7ef5715a620b940c7c6d2a23033ca07/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/80b93c9c93047a8a37a6c031a4a88aee/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/80b93c9c93047a8a37a6c031a4a88aee/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/398ea3120db57d102a138785b17025fb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/398ea3120db57d102a138785b17025fb/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/aab75167c1f0266f89f0c322635c4b21/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/aab75167c1f0266f89f0c322635c4b21/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [androidx.fragment:fragment-testing:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/0e1a2c8f7a10a9b2debcb1c22c88a33e/transformed/jetified-fragment-testing-1.8.6/AndroidManifest.xml:22:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/edubanc/Documents/dev/project/BonAppetit/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:11:5-66
+MERGED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:27:5-66
+MERGED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from [VisaSensoryBranding-1.0.6.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/41c32b92f3fb9a69683563a3de6f92c9/transformed/jetified-VisaSensoryBranding-1.0.6/AndroidManifest.xml:11:22-63
+uses-permission#android.permission.CAMERA
+ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:24:5-65
+	android:name
+		ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:24:22-62
+uses-permission#android.permission.NFC
+ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:25:5-62
+	android:name
+		ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:25:22-59
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:26:22-72
+uses-permission#android.permission.HIDE_OVERLAY_WINDOWS
+ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:28:22-76
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from [softpos-1.0.17-SecurityUnprotectedRelease-protected.aar] /Users/edubanc/.gradle/caches/8.11.1/transforms/a93f34a80effee0b4cb66af479a88b13/transformed/jetified-softpos-1.0.17-SecurityUnprotectedRelease-protected/AndroidManifest.xml:29:22-74
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:23:5-72
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:24:5-72
+MERGED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:23:22-69
+activity#androidx.fragment.app.testing.EmptyFragmentActivity
+ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:26:9-35:20
+	android:multiprocess
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:28:13-36
+	android:theme
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:31:13-78
+	android:taskAffinity
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:27:13-79
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.fragment:fragment-testing-manifest:1.8.6] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f8706cc02ab1798edd3f47d04230015/transformed/jetified-fragment-testing-manifest-1.8.6/AndroidManifest.xml:32:13-34:29
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:26:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/7c7cc9a8420b615254d6fe20ce3e8454/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.1] /Users/edubanc/.gradle/caches/8.11.1/transforms/1387cd61730b2039c317097f28aac9cd/transformed/work-runtime-2.9.1/AndroidManifest.xml:140:25-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/d38f5f14c85b5c2a1ed4df2c7fb19f4d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/755b196ab85335828428437376bd5fa4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.alcineo.bonappetit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.alcineo.bonappetit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/deae07fdb2fe88c34b2ff1ccdcc538e8/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:28:13-99
+intent-filter#category:name:android.intent.category.LAUNCHER
+ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:31:28-51
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from [androidx.test:core:1.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/AndroidManifest.xml:44:13-103
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/edubanc/.gradle/caches/8.11.1/transforms/c85def553eda700fd2dba785c883c800/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/ec77b9ad306fe26269b2b92321c19ef5/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.0] /Users/edubanc/.gradle/caches/8.11.1/transforms/3190db8daf30b7be1ee0a5b4a932ce68/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74

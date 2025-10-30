@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                            
+                                                     
+   
+
+  
+
+             
+                     
+                                                  
+        
+
+             
+                            
+                                                                         
+
+         
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3F3F3"
+     android:tag="layout/adapter_fooditem_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- image -->
+    <androidx.appcompat.widget.AppCompatImageView
+      android:layout_width="148dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/item_icon"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginTop="8dp"
+      android:adjustViewBounds="true"
+      android:layout_marginBottom="8dp"
+      android:src="@drawable/item_burger"
+      android:tag="binding_1"              
+      />
+
+    <!-- title -->
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/item_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toEndOf="@+id/item_icon"
+      android:text="food_name"                          
+      android:textSize="18sp"
+      android:textColor="@color/bonapp_text_title"
+      android:layout_marginTop="6dp"
+       android:tag="binding_2"/>
+
+    <!-- price -->
+    <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/item_price"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="100.00$"                                                                                             
+      android:textSize="13sp"
+      android:textColor="@color/bonapp_text_subtitle"
+      android:layout_below="@+id/item_title"
+      android:layout_toEndOf="@+id/item_icon"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="5dp"
+       android:tag="binding_3"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@+id/item_icon"
+        android:measureWithLargestChild="false"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+      <androidx.appcompat.widget.AppCompatImageButton
+          android:id="@+id/minusButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@null"
+          android:src="@drawable/ic_itemfood_minus" />
+
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/quantityView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_weight="2"
+          android:gravity="center"
+          android:text="0"                                              
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@color/bonapp_text_body"  android:tag="binding_4"/>
+
+      <androidx.appcompat.widget.AppCompatImageButton
+          android:id="@+id/plusButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:background="@null"
+          android:src="@drawable/ic_itemfood_plus" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+  </RelativeLayout>
+
+         

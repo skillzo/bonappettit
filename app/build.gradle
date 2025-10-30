@@ -1,0 +1,143 @@
+plugins {
+    id 'org.owasp.dependencycheck' version '10.0.4'
+    id 'com.android.application'
+    id 'maven-publish'
+}
+
+apply plugin: "androidx.navigation.safeargs"
+
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    namespace = "com.alcineo.bonappetit"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.alcineo.bonappetit"
+        minSdk 33
+        targetSdk 34
+        versionCode 4010
+        versionName "4.0.10"
+//        versionName "b_mpoc_70"
+
+        buildConfigField("String", "VERSION_NAME", "\"${versionName}\"")
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        buildConfig true
+    }
+
+    signingConfigs {
+        config {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def appId = archivesBaseName
+            def versionName = defaultConfig.versionName
+            def flavorName = variant.flavorName
+            def buildType = variant.buildType.name
+            def variantName = variant.name
+
+            // Output name
+            outputFileName = "Demo-BonAppetit-${versionName}-${buildType}.apk"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar", "*.aar"])
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'androidx.lifecycle:lifecycle-process:2.8.7'
+    implementation 'androidx.preference:preference:1.2.1'
+
+    // Ui
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    // Navigation
+    implementation 'androidx.navigation:navigation-fragment:2.8.9'
+    implementation 'androidx.navigation:navigation-ui:2.8.9'
+
+    // WorkManager
+    implementation 'androidx.work:work-runtime:2.9.1'
+    implementation "androidx.concurrent:concurrent-futures:1.2.0"
+
+    // Lombok
+    //noinspection AnnotationProcessorOnCompilePath
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+
+    implementation 'org.bouncycastle:bcprov-jdk15to18:1.78'     // or the latest version
+    implementation 'org.bouncycastle:bcpkix-jdk15to18:1.78'
+    implementation 'com.madgag.spongycastle:core:1.58.0.0'
+
+    // Test
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'android.arch.core:core-testing:1.1.1'
+    testImplementation 'org.mockito:mockito-core:3.8.0'
+    testImplementation 'org.mockito:mockito-inline:3.8.0'
+    testImplementation 'org.robolectric:robolectric:4.7.3'
+    debugImplementation 'androidx.fragment:fragment-testing:1.8.6'
+    testImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+
+    // #### Softpos required ####
+    // #### dependencies below must be included in a Softpos project ####
+    implementation 'com.neovisionaries:nv-i18n:1.29'
+    implementation 'com.google.guava:guava:33.3.0-android'
+    implementation 'org.jetbrains:annotations:23.0.0'
+    // Http
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation group: 'com.squareup.retrofit2', name: 'converter-jackson', version: '2.11.0'
+
+}
+
+dependencyCheck {
+    failBuildOnCVSS = 7.0
+    outputDirectory = "$buildDir/reports/dependency-check"
+    formats = ['HTML', 'JSON']
+}
+

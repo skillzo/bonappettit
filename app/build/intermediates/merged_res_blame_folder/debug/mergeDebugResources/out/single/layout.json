@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.alcineo.bonappetit.app-mergeDebugResources-58:/layout/fragment_transaction.xml",
+        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_transaction.xml"
+    },
+    {
+        "merged": "com.alcineo.bonappetit.app-mergeDebugResources-58:/layout/fragment_shopping.xml",
+        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_shopping.xml"
+    },
+    {
+        "merged": "com.alcineo.bonappetit.app-mergeDebugResources-58:/layout/fragment_receipt.xml",
+        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_receipt.xml"
+    },
+    {
+        "merged": "com.alcineo.bonappetit.app-mergeDebugResources-58:/layout/adapter_fooditem.xml",
+        "source": "com.alcineo.bonappetit.app-main-61:/layout/adapter_fooditem.xml"
+    }
+]

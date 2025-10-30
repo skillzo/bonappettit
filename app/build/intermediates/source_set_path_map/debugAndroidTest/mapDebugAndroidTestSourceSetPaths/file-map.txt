@@ -1,0 +1,6 @@
+com.alcineo.bonappetit.test.app-jetified-core-1.5.0-0 /Users/edubanc/.gradle/caches/8.11.1/transforms/8f4727ac7111360f91b3bd184fcc2830/transformed/jetified-core-1.5.0/res
+com.alcineo.bonappetit.test.app-jetified-annotation-experimental-1.4.1-1 /Users/edubanc/.gradle/caches/8.11.1/transforms/e5e8a26837986d77bf9d0d576c5d4539/transformed/jetified-annotation-experimental-1.4.1/res
+com.alcineo.bonappetit.test.app-androidTest-2 /Users/edubanc/Documents/dev/project/BonAppetit/app/build/generated/res/resValues/androidTest/debug
+com.alcineo.bonappetit.test.app-mergeDebugAndroidTestResources-3 /Users/edubanc/Documents/dev/project/BonAppetit/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.alcineo.bonappetit.test.app-mergeDebugAndroidTestResources-4 /Users/edubanc/Documents/dev/project/BonAppetit/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.alcineo.bonappetit.test.app-debugAndroidTest-5 /Users/edubanc/Documents/dev/project/BonAppetit/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/navigation_graph.xml","javaFiles":["com.alcineo.bonappetit.ui.settings.SettingsFragmentDirections","com.alcineo.bonappetit.ui.shopping.ShoppingFragmentDirections","com.alcineo.bonappetit.ui.transaction.TransactionFragmentDirections","com.alcineo.bonappetit.ui.receipt.ReceiptFragmentArgs"]}]

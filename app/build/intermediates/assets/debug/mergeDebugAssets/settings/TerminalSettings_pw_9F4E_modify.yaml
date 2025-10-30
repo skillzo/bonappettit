@@ -1,0 +1,74 @@
+settings:
+
+  terminal:
+
+    terminal:
+      tag_5F2A:
+                value: "0840"
+                description: "Transaction Currency Code"
+      tag_9F15:
+                value: "0000"
+                description: "Merchant Category Code"
+      tag_9F1A:
+                value: "0840"
+                description: "Terminal Country Code"
+      tag_9F1B:
+                value: null
+                description: "Terminal Floor Limit"
+      tag_9F35:
+                value: "21"
+                description: "Terminal Type (Follow EMV Book 4 annex A1 to fill 1 byte) according to ICS value"
+      tag_9F4E:
+                value: "CUSTOM__TEST"
+                type: string
+                description: "Merchant Name and Location"
+      tag_9F66:
+                value: "26804000"
+                description: "Terminal Transaction Qualifiers (TTQ) (Follow VCPS Table D-1) according to ICS value"
+      tag_D000:
+                value: count_application
+                type: function
+                description: "Number of supported AIDs"
+      tag_D001:
+                value: count_drl
+                type: function
+                description: "Number of supported Reader Limit Sets"
+      tag_DF00:
+                value: "000000030000"
+                description: "Terminal Contactless Transaction Limit"
+      tag_DF01:
+                value: "000000025000"
+                description: "Terminal CVM Required Limit"
+      tag_DF02:
+                value: "000000004000"
+                description: "Terminal Contactless Floor Limit"
+      tag_DFDF02:
+                value: "508295999A9C5F2A5F345F369F029F039F069F109F159F1A9F219F249F269F279F369F379F399F4E9F5D9F5B9F669F6E9F7CDFDF20DFDF23DFDF24DFDF27"
+                description: "Online and clearing message for EMV Transaction"
+      tag_DFDF14:
+                value: "0000C350"
+                description: "Socket timeout for online processing (in ms)"
+      tag_DFDF15:
+                value: "00000001"
+                description: "Number of connection retries in online processing"
+      tag_DFDF16:
+                value: "00000080"
+                description: "Maximum length of issuer script"
+      tag_DFDF21:
+                value: "0008"
+                description: "Reader Features, see in AO-AN-Propery and according to ICS value"
+      tag_DFDF22:
+                value: "7A00"
+                description: "Reader Risk Parameters Checking capabilities, see in AO-AN-Propery and according to ICS value"
+      tag_DFDF23:
+                value: "08"
+                description: "Terminal Entry Capability, see in AO-AN-Propery and according to ICS value"
+      tag_DFDF33:
+                value: "56575A5F205F245F309F6B"
+
+  application:
+
+    App1_00:
+      tag_9F06:
+                value: "A0000000031010"
+                description: "Terminal Application Identifier (AID)"

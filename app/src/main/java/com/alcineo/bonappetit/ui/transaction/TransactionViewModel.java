@@ -9,6 +9,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
+import android.os.Looper;
 
 import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.FragmentManager;
@@ -19,6 +20,8 @@ import com.alcineo.administrative.commands.GetKernelInfos;
 import com.alcineo.bonappetit.model.TransactionFullDataDto;
 import com.alcineo.bonappetit.model.TransactionLed;
 import com.alcineo.bonappetit.domain.utils.SoundGenerator;
+import com.alcineo.softpos.payment.api.DeviceInfoAPI;
+import com.alcineo.softpos.payment.api.SoftposPropertiesAPI;
 import com.alcineo.softpos.payment.api.TransactionAPI;
 import com.alcineo.softpos.payment.api.interfaces.PinProcessEventListener;
 import com.alcineo.softpos.payment.api.interfaces.TransactionEventListener;
@@ -40,6 +43,7 @@ import java.util.List;
 public class TransactionViewModel extends ViewModel implements TransactionEventListener, PinProcessEventListener {
 
     public static final String TAG = TransactionViewModel.class.getSimpleName();
+    private static final String LOG_SEPARATOR = "========== %s ==========";
 
     public final MutableLiveData<TransactionFullDataDto> onTransactionFinishedEvent = new MutableLiveData<>();
     public final MutableLiveData<String>                 transactionMessage         = new MutableLiveData<>();
@@ -64,10 +68,16 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
     public static TransactionViewModel INSTANCE;
 
     public TransactionViewModel(Context context, TransactionParameters transactionParameters, FragmentManager fragmentManager) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "TransactionViewModel Constructor"));
+        logThreadInfo("Constructor");
         this.context = context;
         this.transactionParameters = transactionParameters;
         this.fragmentManager = fragmentManager;
         INSTANCE = this;
+        Log.i(TAG, "✓ TransactionViewModel created");
+        Log.i(TAG, "  - Context: " + (context != null ? context.getClass().getSimpleName() : "NULL"));
+        Log.i(TAG, "  - FragmentManager: " + (fragmentManager != null ? "Available" : "NULL"));
+        Log.i(TAG, "  - TransactionParameters: " + (transactionParameters != null ? "Provided" : "NULL"));
     }
 
     /**
@@ -79,17 +89,100 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      * @see TransactionFragment TransactionFragment#setupTransaction()
      */
     public void startTransaction(LifecycleOwner viewLifecycleOwner) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "STEP 1: TRANSACTION START"));
+        logThreadInfo("startTransaction");
+        
         try {
 //            AttestationAPI.setAttestationCustomField1(StringUtils.convertHexToBytes(customField));
+
+            // Log transaction status
+            Log.i(TAG, "Current transaction status:");
+            Log.i(TAG, "  - transactionStartedEvent: " + transactionStartedEvent.getValue());
+            Log.i(TAG, "  - contactlessLogo: " + contactlessLogo.getValue());
+            Log.i(TAG, "  - transactionKernel: " + transactionKernel.getValue());
+            
+            // Log Activity/Fragment validation
+            if (viewLifecycleOwner != null) {
+                Log.i(TAG, "✓ LifecycleOwner provided: " + viewLifecycleOwner.getClass().getSimpleName());
+                Lifecycle lifecycle = viewLifecycleOwner.getLifecycle();
+                if (lifecycle != null) {
+                    Log.i(TAG, "  - Lifecycle state: " + lifecycle.getCurrentState());
+                } else {
+                    Log.w(TAG, "⚠️ Lifecycle is NULL");
+                }
+            } else {
+                Log.e(TAG, "❌ LifecycleOwner is NULL");
+            }
+            
+            // Log FragmentManager
+            if (fragmentManager != null) {
+                Log.i(TAG, "✓ FragmentManager available");
+                Log.i(TAG, "  - FragmentManager class: " + fragmentManager.getClass().getSimpleName());
+            } else {
+                Log.e(TAG, "❌ FragmentManager is NULL");
+            }
+            
+            // Log transaction parameters
+            Log.i(TAG, String.format(LOG_SEPARATOR, "TRANSACTION PARAMETERS"));
+            if (transactionParameters != null) {
+                Log.i(TAG, "✓ TransactionParameters provided:");
+                Log.i(TAG, "  - Amount: " + transactionParameters.getAmount());
+                Log.i(TAG, "  - Currency: " + transactionParameters.getCurrency());
+                Log.i(TAG, "  - Transaction Type: " + transactionParameters.getTransactionType());
+                Log.i(TAG, "  - Category Code: " + transactionParameters.getTransactionCategoryCode());
+                Log.i(TAG, "  - Card Interaction Timeout: " + transactionParameters.getCardInteractionWaitingTime() + "s");
+            } else {
+                Log.e(TAG, "❌ TransactionParameters is NULL");
+            }
+            
+            // SDK State Verification
+            Log.i(TAG, String.format(LOG_SEPARATOR, "SDK STATE VERIFICATION"));
+            try {
+                byte[] deviceUid = DeviceInfoAPI.getDeviceUid();
+                if (deviceUid != null && deviceUid.length > 0) {
+                    Log.i(TAG, "✓ Device UID: " + StringUtils.convertBytesToHex(deviceUid));
+                } else {
+                    Log.e(TAG, "❌ Device UID is NULL or empty - SDK may not be initialized");
+                }
+            } catch (Exception e) {
+                Log.e(TAG, "❌ Failed to get Device UID: " + e.getMessage(), e);
+            }
+            
+            try {
+                String sdkVersion = SoftposPropertiesAPI.getSoftposLibraryVersion();
+                if (sdkVersion != null && !sdkVersion.isEmpty()) {
+                    Log.i(TAG, "✓ SDK Version: " + sdkVersion);
+                } else {
+                    Log.e(TAG, "❌ SDK Version is NULL or empty - SDK may not be initialized");
+                }
+            } catch (Exception e) {
+                Log.e(TAG, "❌ Failed to get SDK Version: " + e.getMessage(), e);
+            }
 
             transactionMessage.postValue("Attestation in Progress");
             transactionStartedEvent.postValue(false);
 
+            Log.i(TAG, String.format(LOG_SEPARATOR, "CALLING TransactionAPI.startTransaction"));
+            Log.i(TAG, "Calling SDK startTransaction()...");
             TransactionAPI.startTransaction(transactionParameters, this, this, viewLifecycleOwner);
+            Log.i(TAG, "✓ TransactionAPI.startTransaction() called successfully");
 
             kernelListHandler();
         } catch (TransactionException e) {
-            Log.e(TAG, "startTransaction: ", e);
+            Log.e(TAG, String.format(LOG_SEPARATOR, "TRANSACTION EXCEPTION"));
+            Log.e(TAG, "❌ TransactionException caught in startTransaction()");
+            logThreadInfo("startTransaction exception handler");
+            Log.e(TAG, "Exception type: " + e.getClass().getSimpleName());
+            Log.e(TAG, "Exception message: " + e.getMessage());
+            Log.e(TAG, "Stack trace:", e);
+            onTransactionFinish(new TransactionResult(Collections.EMPTY_LIST, TransactionEndStatus.TRANSACTION_DOESNT_START));
+        } catch (Exception e) {
+            Log.e(TAG, String.format(LOG_SEPARATOR, "UNEXPECTED EXCEPTION"));
+            Log.e(TAG, "❌ Unexpected exception in startTransaction()");
+            logThreadInfo("startTransaction exception handler");
+            Log.e(TAG, "Exception type: " + e.getClass().getSimpleName());
+            Log.e(TAG, "Exception message: " + e.getMessage());
+            Log.e(TAG, "Stack trace:", e);
             onTransactionFinish(new TransactionResult(Collections.EMPTY_LIST, TransactionEndStatus.TRANSACTION_DOESNT_START));
         }
 
@@ -99,8 +192,11 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      * Cancel current transactionParameters
      */
     public void cancelTransaction() {
-        // stopTransactionAndConfirm return a boolean that can be used for confirm cancellation
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CANCEL TRANSACTION"));
+        logThreadInfo("cancelTransaction");
+        Log.i(TAG, "Calling TransactionAPI.cancelTransaction()");
         TransactionAPI.cancelTransaction();
+        Log.i(TAG, "✓ Cancel transaction called");
     }
 
     /**
@@ -110,11 +206,34 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      */
     @Override
     public void onDisplayText(String s) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onDisplayText"));
+        logThreadInfo("onDisplayText");
+        
         transactionStartedEvent.postValue(true); // workaround, when we receive led event, transaction is started and ready to perform
+        
+        if (s == null) {
+            Log.w(TAG, "⚠️ onDisplayText received NULL string");
+            s = "";
+        } else {
+            Log.i(TAG, "Display text: \"" + s + "\"");
+            
+            // Error detection
+            String upperText = s.toUpperCase();
+            if (upperText.contains("DOESNT_START") || 
+                upperText.contains("ERROR") || 
+                upperText.contains("FAIL") || 
+                upperText.contains("FAILED")) {
+                Log.e(TAG, "❌ ERROR DETECTED in display text: \"" + s + "\"");
+            }
+        }
+        
         if (s.equals("** CLEAR SCREEN **")) { // Workaround for a clear screen MCL
+            Log.d(TAG, "Clearing screen (MCL workaround)");
             s = "";
         }
+        
         transactionMessage.postValue(s);
+        Log.i(TAG, "✓ onDisplayText processed");
     }
 
     /**
@@ -157,7 +276,11 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      */
     @Override
     public void onDisplayLogo(boolean isLogoVisible) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onDisplayLogo"));
+        logThreadInfo("onDisplayLogo");
+        Log.i(TAG, "Contactless logo visible: " + isLogoVisible);
         contactlessLogo.postValue(isLogoVisible);
+        Log.i(TAG, "✓ onDisplayLogo processed");
     }
 
     /**
@@ -171,7 +294,16 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      */
     @Override
     public void onBeep(BeepStatus beepStatus, int frequency, int duration, int interval, int count) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onBeep"));
+        logThreadInfo("onBeep");
+        Log.i(TAG, "Beep parameters:");
+        Log.i(TAG, "  - Status: " + beepStatus);
+        Log.i(TAG, "  - Frequency: " + frequency + " Hz");
+        Log.i(TAG, "  - Duration: " + duration + " ms");
+        Log.i(TAG, "  - Interval: " + interval + " ms");
+        Log.i(TAG, "  - Count: " + count);
         SoundGenerator.playSound(frequency, duration, interval, count);
+        Log.i(TAG, "✓ onBeep processed");
     }
 
     /**
@@ -181,49 +313,142 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
      */
     @Override
     public void onTransactionFinish(TransactionResult transactionResult) {
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onTransactionFinish"));
+        logThreadInfo("onTransactionFinish");
+        
+        if (transactionResult == null) {
+            Log.e(TAG, "❌ TransactionResult is NULL");
+            return;
+        }
+        
+        TransactionEndStatus endStatus = transactionResult.getTransactionEndStatus();
+        Log.i(TAG, "Transaction End Status: " + endStatus);
+        
+        if (endStatus == TransactionEndStatus.APPROVED) {
+            Log.i(TAG, "✓ Transaction APPROVED");
+        } else if (endStatus == TransactionEndStatus.DECLINED) {
+            Log.w(TAG, "⚠️ Transaction DECLINED");
+        } else if (endStatus == TransactionEndStatus.CANCELLED) {
+            Log.w(TAG, "⚠️ Transaction CANCELLED");
+        } else if (endStatus == TransactionEndStatus.TRANSACTION_DOESNT_START) {
+            Log.e(TAG, "❌ Transaction DOESNT_START");
+        } else {
+            Log.w(TAG, "⚠️ Transaction status: " + endStatus);
+        }
+        
+        List<TlvItem> tags = transactionResult.getTransactionTagList();
+        if (tags != null) {
+            Log.i(TAG, "Transaction tags count: " + tags.size());
+            for (int i = 0; i < tags.size(); i++) {
+                TlvItem tag = tags.get(i);
+                Log.d(TAG, "  Tag[" + i + "]: " + StringUtils.convertBytesToHex(tag.getTag().getBytes()) + 
+                      " = " + StringUtils.convertBytesToHex(tag.getValue()));
+            }
+        } else {
+            Log.w(TAG, "⚠️ Transaction tags list is NULL");
+        }
+        
         onTransactionFinishedEvent.postValue(new TransactionFullDataDto(transactionParameters, transactionResult));
         transactionStartedEvent.postValue(false);
+        Log.i(TAG, "✓ onTransactionFinish processed");
     }
 
     boolean onlineRequestInProgress = false;
     @Override
     public byte[] onOnlineRequest(byte[] bytes) {//throws Exception {
-        Log.i(TAG, "online request is in progress : " + onlineRequestInProgress);
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onOnlineRequest"));
+        logThreadInfo("onOnlineRequest");
+        
+        Log.i(TAG, "Online request in progress flag: " + onlineRequestInProgress);
 
         if (onlineRequestInProgress) {
+            Log.w(TAG, "⚠️ Online request already in progress!");
 //            throw new Exception("Online request already running");
         }
 
         onlineRequestInProgress = true;
+        
+        if (bytes == null) {
+            Log.e(TAG, "❌ EMV data bytes is NULL");
+            onlineRequestInProgress = false;
+            return new byte[]{(byte) 0x8A, (byte) 0x02, (byte) 0x30, (byte) 0x35}; // Decline
+        }
 
 //        Thread.sleep(30000);
 
-        Log.i(TAG, "Online data (raw) : " + StringUtils.convertBytesToHex(bytes));
-        Log.i(TAG, "Online data (TLV) : ");
+        Log.i(TAG, "EMV Data received:");
+        Log.i(TAG, "  - Length: " + bytes.length + " bytes");
+        Log.i(TAG, "  - Hex: " + StringUtils.convertBytesToHex(bytes));
+        
+        Log.i(TAG, "Parsing EMV TLV data:");
         try {
-            for (TlvItem item : TlvParser.decode(bytes, 0)) {
-                Log.i(TAG, "\t\tonline item = " + item);
+            List<TlvItem> items = TlvParser.decode(bytes, 0);
+            Log.i(TAG, "  - TLV items count: " + items.size());
+            for (TlvItem item : items) {
+                Log.i(TAG, "    - " + item);
             }
         } catch (TlvException e) {
-            Log.e(TAG, e.getMessage());
+            Log.e(TAG, "❌ Failed to parse TLV data: " + e.getMessage(), e);
         }
 
         final byte[] approvedOnlineBuffer = {(byte) 0x8A, (byte) 0x02, (byte) 0x30, (byte) 0x30};
+        Log.i(TAG, "Returning approval code: " + StringUtils.convertBytesToHex(approvedOnlineBuffer) + " (00 = APPROVED)");
 
         onlineRequestInProgress = false;
+        Log.i(TAG, "✓ onOnlineRequest processed");
         return approvedOnlineBuffer;
     }
 
     @Override
     public void onDekRequest(byte[] bytes) {
-
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onDekRequest"));
+        logThreadInfo("onDekRequest");
+        if (bytes != null) {
+            Log.i(TAG, "DEK request data length: " + bytes.length);
+            Log.i(TAG, "DEK request data: " + StringUtils.convertBytesToHex(bytes));
+        } else {
+            Log.w(TAG, "⚠️ DEK request data is NULL");
+        }
     }
 
     @Override
     public void onNotifyKernelId(Kernel kernel) {
-        Log.i("kernel selected", kernel.toString());
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onNotifyKernelId"));
+        logThreadInfo("onNotifyKernelId");
+        
+        if (kernel == null) {
+            Log.e(TAG, "❌ Kernel is NULL");
+            return;
+        }
+        
+        String kernelName = kernel.toString();
+        Log.i(TAG, "✓ Card network detected: " + kernelName);
+        
+        // Map kernel to payment network
+        String networkName = "Unknown";
+        switch (kernel) {
+            case K_PAYWAVE:
+                networkName = "Visa PayWave";
+                break;
+            case K_PAYPASS:
+                networkName = "Mastercard PayPass";
+                break;
+            case K_EXPRESSPAY:
+                networkName = "American Express ExpressPay";
+                break;
+            case K_DISCOVER:
+                networkName = "Discover";
+                break;
+            case K_MCL:
+                networkName = "MasterCard Contactless";
+                break;
+            default:
+                networkName = kernelName;
+        }
+        
+        Log.i(TAG, "Payment network: " + networkName);
         transactionKernel.postValue(kernel);
-
+        Log.i(TAG, "✓ onNotifyKernelId processed");
     }
 
    /**
@@ -296,17 +521,44 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
 
     @Override
     public void onRetrieveTagValues( List<TlvItem> tags) {
-
-        for (int i = 0; i < tags.size(); i++) {
-            Log.d(TAG, "Tag (" + StringUtils.convertBytesToHex(tags.get(i).getTag().getBytes()) + ") value: "+ StringUtils.convertBytesToHex(tags.get(i).getValue()));
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onRetrieveTagValues"));
+        logThreadInfo("onRetrieveTagValues");
+        
+        if (tags == null) {
+            Log.w(TAG, "⚠️ Tags list is NULL");
+            return;
         }
-
+        
+        Log.i(TAG, "Retrieved " + tags.size() + " tags:");
+        for (int i = 0; i < tags.size(); i++) {
+            Log.d(TAG, "  Tag[" + i + "]: " + StringUtils.convertBytesToHex(tags.get(i).getTag().getBytes()) + 
+                  " value: " + StringUtils.convertBytesToHex(tags.get(i).getValue()));
+        }
     }
 
     @Override
     public List<TlvItem> onUpdateTagsBeforeKernelActivation(byte[] AID, Kernel kernelSelected, List<TlvItem> tags) {
-        Log.i("kernel selected", kernelSelected.toString());
-        Log.i("AID selected", StringUtils.convertBytesToHex(AID));
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: onUpdateTagsBeforeKernelActivation"));
+        logThreadInfo("onUpdateTagsBeforeKernelActivation");
+        
+        if (kernelSelected != null) {
+            Log.i(TAG, "Kernel selected: " + kernelSelected.toString());
+        } else {
+            Log.w(TAG, "⚠️ Kernel is NULL");
+        }
+        
+        if (AID != null) {
+            Log.i(TAG, "AID selected: " + StringUtils.convertBytesToHex(AID));
+        } else {
+            Log.w(TAG, "⚠️ AID is NULL");
+        }
+        
+        if (tags != null) {
+            Log.i(TAG, "Tags count: " + tags.size());
+        } else {
+            Log.w(TAG, "⚠️ Tags list is NULL");
+        }
+        
         List<TlvItem> updateTags = new ArrayList<>();
         // Code is comment. It is an example of usage.
         // If you don't neeed this, please return updateTags as emptyList.
@@ -336,22 +588,46 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
 //            e.printStackTrace();
 //        }
 
+        Log.i(TAG, "Returning " + updateTags.size() + " updated tags (no modifications)");
         return updateTags;
     }
 
     @Override
     public FragmentManager getApplicationFragmentManager() {
-        Log.d(TAG, "required fragment manager");
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: getApplicationFragmentManager"));
+        logThreadInfo("getApplicationFragmentManager");
+        
+        if (fragmentManager != null) {
+            Log.i(TAG, "✓ FragmentManager available");
+            Log.i(TAG, "  - Class: " + fragmentManager.getClass().getSimpleName());
+            Log.i(TAG, "  - Fragments count: " + fragmentManager.getFragments().size());
+        } else {
+            Log.e(TAG, "❌ FragmentManager is NULL");
+        }
+        
         return this.fragmentManager;
     }
 
     @Override
     public void startPin() {
-        Log.d(TAG, "Pin request start by SDK");
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: startPin"));
+        logThreadInfo("startPin");
+        Log.i(TAG, "✓ PIN entry requested by SDK");
     }
 
     @Override
     public void pinFinish(PIN_STATUS pinStatus) {
-        Log.d(TAG, "Pin request Finish by sdk with status: " + pinStatus);
+        Log.i(TAG, String.format(LOG_SEPARATOR, "CALLBACK: pinFinish"));
+        logThreadInfo("pinFinish");
+        Log.i(TAG, "PIN entry finished with status: " + pinStatus);
+    }
+    
+    // Helper method to log thread information
+    private void logThreadInfo(String methodName) {
+        Thread currentThread = Thread.currentThread();
+        boolean isMainThread = Looper.getMainLooper().getThread() == currentThread;
+        Log.i(TAG, "Thread: " + currentThread.getName() + 
+              (isMainThread ? " (MAIN)" : " (BACKGROUND)") + 
+              " | Method: " + methodName);
     }
 }

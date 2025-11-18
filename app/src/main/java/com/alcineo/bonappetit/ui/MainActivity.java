@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        getWindow().clearFlags(android.view.WindowManager.LayoutParams.FLAG_SECURE);
     }
 
     @Override

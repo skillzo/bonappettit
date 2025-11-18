@@ -1,246 +1,250 @@
 [
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_item_juice.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/item_juice.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/menu_toolbar_menu.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/menu/toolbar_menu.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_cup.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/cup.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_cloud_24.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_cloud_24.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_discover.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/discover.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_item_burger.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/item_burger.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_settings_24.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_settings_24.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_fragment_receipt.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_receipt.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_mcl.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/mcl.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_expresspay.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/expresspay.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_fragment_transaction.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_transaction.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_shopping_basket_24.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_shopping_basket_24.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_interac.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/interac.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_itemfood_plus.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_itemfood_plus.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_logo_contactless_hand.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/logo_contactless_hand.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_done.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_done.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_girocard.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/girocard.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_itemfood_minus.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_itemfood_minus.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_pure.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/pure.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_fragment_shopping.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/fragment_shopping.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_item_burger.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/item_burger.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_fragment_shopping.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/fragment_shopping.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/navigation_navigation_graph.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/navigation/navigation_graph.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_cpace.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/cpace.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_item_salad.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/item_salad.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_settings_24.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_settings_24.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_logo_alcineo_small.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/logo_alcineo_small.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_alertdialog_fileupload_content.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/alertdialog_fileupload_content.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_itemfood_minus.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_itemfood_minus.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_fragment_receipt.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/fragment_receipt.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_paywave.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/paywave.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_mcl.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/mcl.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_fragment_transaction.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/fragment_transaction.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_item_salad.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/item_salad.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_shopping_cart_24.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_shopping_cart_24.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_cup.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/cup.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_logo_contactless.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/logo_contactless.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_adapter_fooditem.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/adapter_fooditem.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_girocard.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/girocard.jpg"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_jcb.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/jcb.png"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_delete_me.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/delete_me.png"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_vector_done.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/vector_done.xml"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_item_cupcake.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/item_cupcake.jpg"
+    },
+    {
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.alcineo.bonappetit.app-debug-59:/layout_view_nfc_not_available.xml.flat",
         "source": "com.alcineo.bonappetit.app-main-61:/layout/view_nfc_not_available.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_pagobancomat.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/pagobancomat.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_item_fruits.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/item_fruits.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_eftpos.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/eftpos.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_eftpos.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/eftpos.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_vector_error.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/vector_error.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/activity_main.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_item_fruits.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/item_fruits.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_shape_rounded_corner.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/shape_rounded_corner.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_interac.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/interac.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_vector_error.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/vector_error.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/layout_activity_main.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/layout/activity_main.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_adapter_fooditem.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/adapter_fooditem.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_itemfood_plus.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_itemfood_plus.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_done.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_done.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_vector_done.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/vector_done.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_item_juice.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/item_juice.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_logo_alcineo_small_500x138.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/logo_alcineo_small_500x138.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_final_logo.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_final_logo.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_logo_alcineo_small_500x138.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/logo_alcineo_small_500x138.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_shopping_basket_24.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_shopping_basket_24.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_shopping_cart_24.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_shopping_cart_24.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/menu_toolbar_menu.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/menu/toolbar_menu.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_item_cupcake.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/item_cupcake.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_pagobancomat.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/pagobancomat.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_view_nfc_not_available.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/view_nfc_not_available.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_shape_rounded_corner.xml.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/shape_rounded_corner.xml"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/navigation_navigation_graph.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/navigation/navigation_graph.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_expresspay.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/expresspay.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_paywave.jpg.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/paywave.jpg"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_discover.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/discover.jpg"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_logo_contactless_hand.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/logo_contactless_hand.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_delete_me.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/delete_me.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_cpace.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/cpace.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_jcb.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/jcb.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/layout_alertdialog_fileupload_content.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/layout/alertdialog_fileupload_content.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_ic_final_logo.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/ic_final_logo.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-hdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_logo_contactless.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/logo_contactless.png"
-    },
-    {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_pure.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/pure.jpg"
-    },
-    {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/drawable_logo_alcineo_small.jpg.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/drawable/logo_alcineo_small.jpg"
-    },
-    {
-        "merged": "com.alcineo.bonappetit.app-debug-59:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.alcineo.bonappetit.app-main-61:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-debug-59:/drawable_ic_cloud_24.xml.flat",
+        "source": "/Users/edubanc/.gradle/daemon/8.11.1/com.alcineo.bonappetit.app-main-61:/drawable/ic_cloud_24.xml"
     }
 ]

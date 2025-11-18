@@ -125,12 +125,8 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
             // Log transaction parameters
             Log.i(TAG, String.format(LOG_SEPARATOR, "TRANSACTION PARAMETERS"));
             if (transactionParameters != null) {
-                Log.i(TAG, "✓ TransactionParameters provided:");
-                Log.i(TAG, "  - Amount: " + transactionParameters.getAmount());
-                Log.i(TAG, "  - Currency: " + transactionParameters.getCurrency());
-                Log.i(TAG, "  - Transaction Type: " + transactionParameters.getTransactionType());
-                Log.i(TAG, "  - Category Code: " + transactionParameters.getTransactionCategoryCode());
-                Log.i(TAG, "  - Card Interaction Timeout: " + transactionParameters.getCardInteractionWaitingTime() + "s");
+                Log.i(TAG, "✓ TransactionParameters provided");
+                Log.i(TAG, "  - TransactionParameters class: " + transactionParameters.getClass().getSimpleName());
             } else {
                 Log.e(TAG, "❌ TransactionParameters is NULL");
             }
@@ -426,24 +422,18 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
         
         // Map kernel to payment network
         String networkName = "Unknown";
-        switch (kernel) {
-            case K_PAYWAVE:
-                networkName = "Visa PayWave";
-                break;
-            case K_PAYPASS:
-                networkName = "Mastercard PayPass";
-                break;
-            case K_EXPRESSPAY:
-                networkName = "American Express ExpressPay";
-                break;
-            case K_DISCOVER:
-                networkName = "Discover";
-                break;
-            case K_MCL:
-                networkName = "MasterCard Contactless";
-                break;
-            default:
-                networkName = kernelName;
+        if (kernel == Kernel.K_PAYWAVE) {
+            networkName = "Visa PayWave";
+        } else if (kernel == Kernel.K_PAYPASS) {
+            networkName = "Mastercard PayPass";
+        } else if (kernel == Kernel.K_EXPRESSPAY) {
+            networkName = "American Express ExpressPay";
+        } else if (kernel == Kernel.K_DISCOVER) {
+            networkName = "Discover";
+        } else if (kernel == Kernel.K_MCL) {
+            networkName = "MasterCard Contactless";
+        } else {
+            networkName = kernelName;
         }
         
         Log.i(TAG, "Payment network: " + networkName);
@@ -600,7 +590,11 @@ public class TransactionViewModel extends ViewModel implements TransactionEventL
         if (fragmentManager != null) {
             Log.i(TAG, "✓ FragmentManager available");
             Log.i(TAG, "  - Class: " + fragmentManager.getClass().getSimpleName());
-            Log.i(TAG, "  - Fragments count: " + fragmentManager.getFragments().size());
+            try {
+                Log.i(TAG, "  - Fragments count: " + fragmentManager.getFragments().size());
+            } catch (Exception e) {
+                Log.d(TAG, "  - Could not get fragments count: " + e.getMessage());
+            }
         } else {
             Log.e(TAG, "❌ FragmentManager is NULL");
         }
